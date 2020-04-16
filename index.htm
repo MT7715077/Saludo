@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Saludo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Saludo</h1>
+    <form action="" class="form">
+        <input type="text" id="nombre" class="in">
+        <input type="button" value="Enviar" class="bo" onclick="alert(saludo());">
+
+    </form>
+    <script>
+        function saludo() {
+            var nombre = document.getElementById("nombre").value;
+            return "Hola " + nombre;
+        }
+    </script>
+</body>
+
+</html>
